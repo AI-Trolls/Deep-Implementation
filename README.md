@@ -18,4 +18,4 @@
 
 
 # 추천 자료
-- [요기](https://github.com/fchollet/keras-resources)에 중간에 가보면 재미있는 예시 몇개 있음
+- ([요기](https://github.com/fchollet/keras-resources))에 중간에 가보면 재미있는 예시 몇개 있음
