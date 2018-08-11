@@ -13,7 +13,8 @@
   - gradient를 input 까지 전파해서 이미지 자체를 바꿔버린다!! 엄청난 발상의 전환으로 재미있는 결과를 뽑음
 - 강의: https://www.youtube.com/watch?v=VC-YFRSp7lM&index=8&list=PLep-kTP3NkcN43rnM4WrOYk7eXeB4s3DM 
 - 코드
-  - https://github.com/lengstrom/fast-style-transfer 
+  - https://github.com/lengstrom/fast-style-transfer
+  - https://github.com/hwalsuklee/tensorflow-style-transfer
   - https://github.com/hwalsuklee
 
 
