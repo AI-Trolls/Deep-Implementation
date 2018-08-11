@@ -6,7 +6,7 @@
   - 두 개의 이미지(하나는 스타일이미지, 하나는 바꾸고 싶은 인풋이미지)를 넣으면
   - 각각 이미지의 Gram Matrix를 구해서 서로간의 Error가 최소화 되도록 트레이닝을 하되
   - 네트워크의 weight을 트레이닝 하는 것이아니라
-  - gradient를 input 까지 전파해서 이미지 자체를 바꿔버린다!!
+  - gradient를 input 까지 전파해서 이미지 자체를 바꿔버린다!! 엄청난 발상의 전환으로 재미있는 결과를 뽑음
 - 강의: https://www.youtube.com/watch?v=VC-YFRSp7lM&index=8&list=PLep-kTP3NkcN43rnM4WrOYk7eXeB4s3DM 
 - 코드
   - https://github.com/lengstrom/fast-style-transfer 
