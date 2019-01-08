@@ -22,3 +22,9 @@
 
 # 추천 자료
 - ([요기](https://github.com/fchollet/keras-resources))에 중간에 가보면 재미있는 예시 몇개 있음
+
+# Face Recognition
+  - [openFace](https://github.com/cmusatyalab/openface)
+    - [한국 블로그 예제 자료](https://www.popit.kr/openface-exo-member-face-recognition/)
+  - [shpereFace](https://github.com/wy1iu/sphereface)
+    - [re-implementation of asoftmax in tensorFlow](https://github.com/pppoe/tensorflow-sphereface-asoftmax)
