@@ -1,0 +1,18 @@
+## Keras에서 GPU 사용해서 연산/학습하기
+
+  - 사용 가능한 device 보는 방법
+  ```python
+  from tensorflow.python.client import device_lib
+  print(device_lib.list_local_devices())
+  ```
+  - 방법 1. with문 사용
+  ```python
+  import keras.backend.tensorflow_backend as K
+  with K.tf.device('/gpu:0'):
+    # your code
+  ```
+  - 방법 2. multi_gpu_model 사용
+  ```
+  from keras.utils.training_utils import multi_gpu_model
+  model = multi_gpu_model(model, gpus=4)
+  ```
