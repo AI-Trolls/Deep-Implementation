@@ -22,3 +22,7 @@
   from keras.utils.training_utils import multi_gpu_model
   model = multi_gpu_model(model, gpus=4)
   ```
+3. GPU 사용량 보는 방법 (Ubuntu)
+  ```bash
+  nvidia-smi
+  ```
