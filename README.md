@@ -1,5 +1,23 @@
 # Deep-Implementation
-딥러닝 '구현'에 관련해서 흥미롭게 볼만한 것들 정리
+딥러닝 '구현'에 관련해서 흥미롭게 볼만한 것들 정리 및 변형 예제 생성
+
+# Contents
+- tensorFlow
+  - tutorial
+    - [Dataset class](tensorflow_tutorial/dataset.md)
+- Keras
+  - tutorial
+    - [Tips](keras_tutorial/keras.md)
+    - [training data와 validation data를 split하는 code](keras_tutorial/csv_split_training_validation.ipynb)
+    - [fcae recognition example code](keras_tutorial/face_recognition.ipynb)
+  - attention
+    - [Dense](keras_tutorial/attention/attention_dense.ipynb)
+    - [LSTM](keras_tutorial/attention/attention_lstm.ipynb)
+    - [BiGRU](keras_tutorial/attention/attention_BiGRU.ipynb)
+- pyTorch
+  - tutorial
+    - [installation](pytorch_tutorial/installation.ipynb)
+    - [pytorch_tutorial_01](pytorch_tutorial/pytorch_tutorial_01.ipynb)
 
 # Attention Model
 - Todo; 재미있는 예제 못찾음
@@ -22,3 +40,9 @@
 
 # 추천 자료
 - ([요기](https://github.com/fchollet/keras-resources))에 중간에 가보면 재미있는 예시 몇개 있음
+
+# Face Recognition
+  - [openFace](https://github.com/cmusatyalab/openface)
+    - [한국 블로그 예제 자료](https://www.popit.kr/openface-exo-member-face-recognition/)
+  - [shpereFace](https://github.com/wy1iu/sphereface)
+    - [re-implementation of asoftmax in tensorFlow](https://github.com/pppoe/tensorflow-sphereface-asoftmax)
